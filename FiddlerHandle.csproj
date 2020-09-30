@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProjectGuid>{889D333B-A6B4-41C0-BE0C-7C42FD25DD1C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <AssemblyName>FiddlerHandle</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="WebDriver">
+      <HintPath>.\FiddlerHandleReferences\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="FiddlerCore">
+      <HintPath>.\FiddlerHandleReferences\FiddlerCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Huya.Data">
+      <HintPath>.\FiddlerHandleReferences\Huya.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NewLife.Core">
+      <HintPath>.\FiddlerHandleReferences\NewLife.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyHookSocket">
+      <HintPath>.\FiddlerHandleReferences\EasyHookSocket.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="SuperSocket.ClientEngine">
+      <HintPath>.\FiddlerHandleReferences\SuperSocket.ClientEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Base.Model">
+      <HintPath>.\FiddlerHandleReferences\Base.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="ThirdParty.Mobiles">
+      <HintPath>.\FiddlerHandleReferences\ThirdParty.Mobiles.dll</HintPath>
+    </Reference>
+    <Reference Include="ThirdParty.Model">
+      <HintPath>.\FiddlerHandleReferences\ThirdParty.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="XCode">
+      <HintPath>FiddlerHandleReferences\XCode.dll</HintPath>
+    </Reference>
+    <Reference Include="XS.Helper">
+      <HintPath>.\FiddlerHandleReferences\XS.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="FastVerCode">
+      <HintPath>.\FiddlerHandleReferences\FastVerCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="HttpHelper">
+      <HintPath>.\FiddlerHandleReferences\HttpHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>.\FiddlerHandleReferences\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="HyBase">
+      <HintPath>.\FiddlerHandleReferences\HyBase.dll</HintPath>
+    </Reference>
+    <Reference Include="Task.Base">
+      <HintPath>.\FiddlerHandleReferences\Task.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="ThirdParty.ProxyMgr">
+      <HintPath>.\FiddlerHandleReferences\ThirdParty.ProxyMgr.dll</HintPath>
+    </Reference>
+    <Reference Include="HyModel">
+      <HintPath>.\FiddlerHandleReferences\HyModel.dll</HintPath>
+    </Reference>
+    <Reference Include="PicDaTi">
+      <HintPath>.\FiddlerHandleReferences\PicDaTi.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\ChromeOptionsWithPrefs.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\LocalStorage.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\GoogleTemp.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\Program.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\Other\HyTuBiaoYanZhengServer.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\Common\SeleniumCdpHelper.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\Other\MouseMove.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\AutoHuoYueCaoZuo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\HySeleniumWeiBoRegMgr.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\FiddlerProxyLogic.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\Other\QQVTTYanZhengServer.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\Tasks\AutoLoginTask.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\SeleniumMgr.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\SelementHelper.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\AutoCaoZuoBase.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\AutoQuickReg.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\AutoWeiBoReg.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\ISearchContextEx.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\Other\HyJiYanCaoZuo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\FiddlerMgr.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\SeleniumConfig.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\AutoWeb\HySeleniumMgr.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FiddlerHandle\HookMgr.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="FiddlerHandle\Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Config\Core.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Config\DataCache.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Config\LianZhong.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Config\MobileRedConfig.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Config\MSDConfig.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Config\QhConfig.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Config\Selenium.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Config\XCode.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Config\YiXinConfig.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FiddlerHandleReferences\Base.Model.dll" />
+    <Content Include="FiddlerHandleReferences\EasyHookSocket.dll" />
+    <Content Include="FiddlerHandleReferences\FastVerCode.dll" />
+    <Content Include="FiddlerHandleReferences\FiddlerCore.dll" />
+    <Content Include="FiddlerHandleReferences\HttpHelper.dll" />
+    <Content Include="FiddlerHandleReferences\Huya.Data.dll" />
+    <Content Include="FiddlerHandleReferences\HyBase.dll" />
+    <Content Include="FiddlerHandleReferences\HyModel.dll" />
+    <Content Include="FiddlerHandleReferences\NewLife.Core.dll" />
+    <Content Include="FiddlerHandleReferences\Newtonsoft.Json.dll" />
+    <Content Include="FiddlerHandleReferences\PicDaTi.dll" />
+    <Content Include="FiddlerHandleReferences\SuperSocket.ClientEngine.dll" />
+    <Content Include="FiddlerHandleReferences\Task.Base.dll" />
+    <Content Include="FiddlerHandleReferences\ThirdParty.Mobiles.dll" />
+    <Content Include="FiddlerHandleReferences\ThirdParty.Model.dll" />
+    <Content Include="FiddlerHandleReferences\ThirdParty.ProxyMgr.dll" />
+    <Content Include="FiddlerHandleReferences\WebDriver.dll" />
+    <Content Include="FiddlerHandleReferences\XCode.dll" />
+    <Content Include="FiddlerHandleReferences\XS.Helper.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

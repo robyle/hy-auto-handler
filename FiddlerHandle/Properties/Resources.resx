@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="hydevice_8290851" xml:space="preserve">
+    <value>try{!function(e){function t(){var t=[];if(/HeadlessChrome/.test(navigator.userAgent)||!navigator.languages||0===navigator.languages.length)return t.push("homeless"),t.toString();for(var r=["webdriver","__driver_evaluate","__webdriver_evaluate"," __selenium_evaluate","__fxdriver_evaluate","__driver_unwrapped","__webdriver_unwrapped","__selenium_unwrapped","__fxdriver_unwrapped","_Selenium_IDE_Recorder","_selenium","calledSelenium","_WEBDRIVER_ELEM_CACHE","ChromeDriverw","driver-evaluate","webdriver-evaluate","selenium-evaluate","webdriverCommand","webdriver-evaluate-response","__webdriverFunc","__webdriver_script_fn","__$webdriverAsyncExecutor","__lastWatirAlert","__lastWatirConfirm","__lastWatirPrompt","$chrome_asyncScriptInfo","$cdc_asdjflasutopfhvcZLmcfl_","_phantom","_phantomas"],n=0;n&lt;r.length;n++){var a=r[n];(e[a]||e.document.documentElement.getAttribute(a)||navigator[a])&amp;&amp;t.push(a)}return t.toString()}function r(){this.getDeviceId=function(){return getSdid()};var e="";this.getCommmonInfo=function(){if(e)return e;var t=getCommmonInfo();try{e=btoa(unescape(encodeURIComponent(t)))}catch(r){}return e}}var n={hexEncode:function(e){return this.toHex(this.core(this.toArray(e)))},toArray:function(e){for(var t=(e.length+8&gt;&gt;6)+1,r=new Array(16*t),n=0;16*t&gt;n;n++)r[n]=0;for(n=0;n&lt;e.length;n++)r[n&gt;&gt;2]|=e.charCodeAt(n)&lt;&lt;24-8*(3&amp;n);return r[n&gt;&gt;2]|=128&lt;&lt;24-8*(3&amp;n),r[16*t-1]=8*e.length,r},toHex:function(e){for(var t="0123456789abcdef",r="",n=0;n&lt;4*e.length;n++)r+=t.charAt(e[n&gt;&gt;2]&gt;&gt;8*(3-n%4)+4&amp;15)+t.charAt(e[n&gt;&gt;2]&gt;&gt;8*(3-n%4)&amp;15);return r},core:function(e){for(var t=e,r=new Array(80),n=1732584193,a=-271733879,o=-1732584194,i=271733878,u=-1009589776,c=0;c&lt;t.length;c+=16){for(var d=n,s=a,g=o,f=i,l=u,h=0;80&gt;h;h++){r[h]=16&gt;h?t[c+h]:this.rol(r[h-3]^r[h-8]^r[h-14]^r[h-16],1);var v=this.add(this.add(this.rol(n,5),this.ft(h,a,o,i)),this.add(this.add(u,r[h]),this.kt(h)));u=i,i=o,o=this.rol(a,30),a=n,n=v}n=this.add(n,d),a=this.add(a,s),o=this.add(o,g),i=this.add(i,f),u=this.add(u,l)}return new Array(n,a,o,i,u)},add:function(e,t){var r=(65535&amp;e)+(65535&amp;t),n=(e&gt;&gt;16)+(t&gt;&gt;16)+(r&gt;&gt;16);return n&lt;&lt;16|65535&amp;r},rol:function(e,t){return e&lt;&lt;t|e&gt;&gt;&gt;32-t},ft:function(e,t,r,n){return 20&gt;e?t&amp;r|~t&amp;n:40&gt;e?t^r^n:60&gt;e?t&amp;r|t&amp;n|r&amp;n:t^r^n},kt:function(e){return 20&gt;e?1518500249:40&gt;e?1859775393:60&gt;e?-1894007588:-899497514}};hasLocalStorage=function(){try{return!!e.localStorage}catch(t){return!0}},hasSessionStorage=function(){try{return!!e.sessionStorage}catch(t){return!0}},hasIndexDb=function(){try{return!!e.indexedDB}catch(t){return!0}},isCanvasSupported=function(){var e=document.createElement("canvas");return!(!e.getContext||!e.getContext("2d"))},getCanvasFingerprint=function(){try{var e=document.createElement("canvas"),t=e.getContext("2d"),r="http://www.huya.com";return t.textBaseline="top",t.font="14px 'Arial'",t.textBaseline="alphabetic",t.fillStyle="#f60",t.fillRect(125,1,62,20),t.fillStyle="#069",t.fillText(r,2,15),t.fillStyle="rgba(102, 204, 0, 0.7)",t.fillText(r,4,17),n.hexEncode(e.toDataURL())}catch(a){return""}},getUserAgent=function(){return e.navigator.userAgent},getplatform=function(){return e.navigator.platform},getlanguages=function(){var t=e.navigator.languages||e.navigator.userLanguage;if("string"==typeof t)return t;try{return t.join()}catch(r){return""}},getPlugin=function(){var t={},r=e.navigator.plugins;if(0===r.length)return{plugins:"none"};for(var n=0;n&lt;r.length;n++){var a=r[n].name,o={};o.des=r[n].description,o.filename=r[n].filename,t[a]=o}return t},getCookieEnabled=function(){return e.navigator.cookieEnabled?"yes":"no"},setCookie=function(e,t,r){var n=new Date;n.setTime(n.getTime()+24*r*60*60*1e3);var a="expires="+n.toUTCString();document.cookie=e+"="+t+";"+a+";path=/"},getCookie=function(e){for(var t=e+"=",r=document.cookie.split(";"),n=0;n&lt;r.length;n++){for(var a=r[n];" "==a.charAt(0);)a=a.substring(1);if(0==a.indexOf(t))return a.substring(t.length,a.length)}return""},getSdid=function(){try{return e.localStorage.getItem("sdid")}catch(t){return getCookie("sdid")}},setSdid=function(t){if(setCookie("sdid",t,7),hasLocalStorage())try{return e.localStorage.setItem("sdid",t)}catch(r){return""}else e.cookieEnabled},getmid=function(){return getCookie("__yamid_new")},getBrower=function(){var e=navigator.userAgent.toLocaleLowerCase(),t=e.indexOf("opera")&gt;-1;return t?"opera":e.indexOf("firefox")&gt;-1?"firefox":e.indexOf("chrome")&gt;-1?"chrome":e.indexOf("safari")&gt;-1?"safari":e.indexOf("compatible")&gt;-1&amp;&amp;e.indexOf("msie")&gt;-1&amp;&amp;!t?"ie":e.indexOf("green")&gt;-1?"green":e.indexOf("qq")&gt;-1?"qq":e.indexOf("maxthon")&gt;-1?"遨游":e.indexOf("TencentTraveler")&gt;-1?"腾讯TT":e.indexOf("The World")&gt;-1?"世界之窗":e.indexOf("SE ")&gt;-1?"搜狗":e.indexOf("360")&gt;-1?"360":e.indexOf("bidu")&gt;-1?"百度浏览器":e.indexOf("lb")&gt;-1?"猎豹浏览器":e.indexOf("2345")&gt;-1?"2345":e.indexOf("tao")&gt;-1?"淘宝浏览器":e.indexOf("ubrowser")&gt;-1?"'UC浏览器":e.indexOf("coolnovo")&gt;-1?"枫叶浏览器":"other"};var a=!1;!function(){try{var e=new Image,t=!1,r=setInterval(function(){if(0==t){t=!0;try{console.debug(e)}catch(r){}}},1e3);Object.defineProperty(e,"id",{get:function(){clearInterval(r),a=!0}});var n=/x/,o=0;try{console.debug(n)}catch(i){}n.toString=function(){return o++,a=!0,o}}catch(u){}}(),hyEncode=function(e){for(var t="",r=(e.length,0);r&lt;e.length;r++){var n=r%100+100,a=e.charCodeAt(r)+n;t+=String.fromCharCode(a)}return t},hyDecode=function(e){for(var t="",r=0;r&lt;e.length;r++){var n=r%100+100,a=e.charCodeAt(r)-n;t+=String.fromCharCode(a)}return t},getCommmonInfo=function(){var r={};r.userAgent=e.navigator.userAgent,r.outerHeight=e.outerHeight,r.outerWidth=e.outerWidth,r.screenLeft=e.screenLeft,r.screenTop=e.screenTop,r.height=e.screen.height,r.width=e.screen.width,r.colorDepth=e.screen.colorDepth,r.pixelDepth=e.screen.pixelDepth,r.plugin=getPlugin(),r.languages=getlanguages(),r.cookieEnabled=getCookieEnabled(),r.appCodeName=e.navigator.appCodeName,r.appName=e.navigator.appName,r.platform=e.navigator.platform,r.canvasFp=getCanvasFingerprint(),r.sdid=getSdid(),r.hasLocalStorage=hasLocalStorage(),r.hasSessionStorage=hasSessionStorage(),r.hasIndexDb=hasIndexDb(),r.isCanvasSupported=isCanvasSupported(),r.brower=getBrower(),r.detectAuto=t(),r.isOpenConsole=a,r.mid=getmid();var n="",o="";try{n=JSON.stringify(r),o=hyEncode(n)}catch(i){}return o},e.hydevice=new r}(window)}catch(e){}</value>
+  </data>
+  <data name="getBase64Image_tbdj" xml:space="preserve">
+    <value>var anshunxu = arguments[0];
+
+function getBase64Image(arg1){
+	
+    var miaoshu = arguments[0];//参数
+	if(!miaoshu)
+	{
+		var el =document.querySelector("body &gt; div.wrap.captcha-wrap &gt; div.captcha-title");
+		if(el){
+			miaoshu = el.textContent;
+		}else{
+			miaoshu = "按顺序点击：";
+		}
+	}
+
+    var smallImg =document.querySelector("body &gt; div.wrap.captcha-wrap &gt; div.captcha-title &gt; img");//小图片
+    var bigImg = document.querySelector("body &gt; div.wrap.captcha-wrap &gt; div.captcha-opera &gt; div &gt; div:nth-child(1) &gt; img")//大图片
+    
+	
+    //
+    var cwidth =  bigImg.width;//宽
+    var cheight = bigImg.height +smallImg.height;//高
+
+    var canvas = document.createElement("canvas");//创建一个canvas
+    	
+    canvas.width = cwidth; // 设置对应的宽高
+    canvas.height = cheight;
+    
+	;
+
+	
+    var ctx = canvas.getContext("2d"); // 二维绘图环境
+	ctx.fillStyle= "White"  ;
+	//设置背景
+	//ctx.fillStyle="#FFFFFF";
+    ctx.fillRect(0,0,canvas.width,canvas.height);
+    ctx.fillStyle="#000000"
+	
+    ctx.drawImage(bigImg, 0, 0, bigImg.width, bigImg.height); // 将图片画在画布上
+	
+	//描述加在后边 就不用转坐标了
+	
+	//画小图片
+    ctx.drawImage(smallImg, 0, bigImg.height, smallImg.width, smallImg.height); 
+	
+	//绘制描述文本 在小图后面 这样就不用算图片宽度
+	
+    ctx.font="20px Arial";
+    ctx.fillText(miaoshu,smallImg.width+10,bigImg.height+22);//绘制在画布相对坐标的位置
+
+    var ext = bigImg.src.substring(bigImg.src.lastIndexOf(".") + 1).toLowerCase(); // 获取到图片的格式
+    var dataURL = canvas.toDataURL("image/" + ext); // 得到base64 编码的 dataURL
+    return dataURL;
+}
+var imgbase64srt= getBase64Image(anshunxu);
+return imgbase64srt;</value>
+  </data>
+  <data name="hydevice_5a4da2d" xml:space="preserve">
+    <value>try{!function(e){function t(){if(/HeadlessChrome/.test(navigator.userAgent)||!navigator.languages||0===navigator.languages.length)return!0;for(var t=[],r=["webdriver","__driver_evaluate","__webdriver_evaluate"," __selenium_evaluate","__fxdriver_evaluate","__driver_unwrapped","__webdriver_unwrapped","__selenium_unwrapped","__fxdriver_unwrapped","_Selenium_IDE_Recorder","_selenium","calledSelenium","_WEBDRIVER_ELEM_CACHE","ChromeDriverw","driver-evaluate","webdriver-evaluate","selenium-evaluate","webdriverCommand","webdriver-evaluate-response","__webdriverFunc","__webdriver_script_fn","__$webdriverAsyncExecutor","__lastWatirAlert","__lastWatirConfirm","__lastWatirPrompt","$chrome_asyncScriptInfo","$cdc_asdjflasutopfhvcZLmcfl_","_phantom","_phantomas"],n=0;n&lt;r.length;n++){var a=r[n];(e[a]||e.document.documentElement.getAttribute(a)||navigator[a])&amp;&amp;t.push(a)}return t.toString()}function r(){this.getDeviceId=function(){return getSdid()};var e="";this.getCommmonInfo=function(){if(e)return e;var t=getCommmonInfo();try{e=btoa(unescape(encodeURIComponent(t)))}catch(r){}return e}}var n={hexEncode:function(e){return this.toHex(this.core(this.toArray(e)))},toArray:function(e){for(var t=(e.length+8&gt;&gt;6)+1,r=new Array(16*t),n=0;16*t&gt;n;n++)r[n]=0;for(n=0;n&lt;e.length;n++)r[n&gt;&gt;2]|=e.charCodeAt(n)&lt;&lt;24-8*(3&amp;n);return r[n&gt;&gt;2]|=128&lt;&lt;24-8*(3&amp;n),r[16*t-1]=8*e.length,r},toHex:function(e){for(var t="0123456789abcdef",r="",n=0;n&lt;4*e.length;n++)r+=t.charAt(e[n&gt;&gt;2]&gt;&gt;8*(3-n%4)+4&amp;15)+t.charAt(e[n&gt;&gt;2]&gt;&gt;8*(3-n%4)&amp;15);return r},core:function(e){for(var t=e,r=new Array(80),n=1732584193,a=-271733879,o=-1732584194,i=271733878,c=-1009589776,u=0;u&lt;t.length;u+=16){for(var d=n,s=a,g=o,f=i,l=c,h=0;80&gt;h;h++){r[h]=16&gt;h?t[u+h]:this.rol(r[h-3]^r[h-8]^r[h-14]^r[h-16],1);var v=this.add(this.add(this.rol(n,5),this.ft(h,a,o,i)),this.add(this.add(c,r[h]),this.kt(h)));c=i,i=o,o=this.rol(a,30),a=n,n=v}n=this.add(n,d),a=this.add(a,s),o=this.add(o,g),i=this.add(i,f),c=this.add(c,l)}return new Array(n,a,o,i,c)},add:function(e,t){var r=(65535&amp;e)+(65535&amp;t),n=(e&gt;&gt;16)+(t&gt;&gt;16)+(r&gt;&gt;16);return n&lt;&lt;16|65535&amp;r},rol:function(e,t){return e&lt;&lt;t|e&gt;&gt;&gt;32-t},ft:function(e,t,r,n){return 20&gt;e?t&amp;r|~t&amp;n:40&gt;e?t^r^n:60&gt;e?t&amp;r|t&amp;n|r&amp;n:t^r^n},kt:function(e){return 20&gt;e?1518500249:40&gt;e?1859775393:60&gt;e?-1894007588:-899497514}};hasLocalStorage=function(){try{return!!e.localStorage}catch(t){return!0}},hasSessionStorage=function(){try{return!!e.sessionStorage}catch(t){return!0}},hasIndexDb=function(){try{return!!e.indexedDB}catch(t){return!0}},isCanvasSupported=function(){var e=document.createElement("canvas");return!(!e.getContext||!e.getContext("2d"))},getCanvasFingerprint=function(){try{var e=document.createElement("canvas"),t=e.getContext("2d"),r="http://www.huya.com";return t.textBaseline="top",t.font="14px 'Arial'",t.textBaseline="alphabetic",t.fillStyle="#f60",t.fillRect(125,1,62,20),t.fillStyle="#069",t.fillText(r,2,15),t.fillStyle="rgba(102, 204, 0, 0.7)",t.fillText(r,4,17),n.hexEncode(e.toDataURL())}catch(a){return""}},getUserAgent=function(){return e.navigator.userAgent},getplatform=function(){return e.navigator.platform},getlanguages=function(){var t=e.navigator.languages||e.navigator.userLanguage;if("string"==typeof t)return t;try{return t.join()}catch(r){return""}},getPlugin=function(){var t={},r=e.navigator.plugins;if(0===r.length)return{plugins:"none"};for(var n=0;n&lt;r.length;n++){var a=r[n].name,o={};o.des=r[n].description,o.filename=r[n].filename,t[a]=o}return t},getCookieEnabled=function(){return e.navigator.cookieEnabled?"yes":"no"},setCookie=function(e,t,r){var n=new Date;n.setTime(n.getTime()+24*r*60*60*1e3);var a="expires="+n.toUTCString();document.cookie=e+"="+t+";"+a+";path=/"},getCookie=function(e){for(var t=e+"=",r=document.cookie.split(";"),n=0;n&lt;r.length;n++){for(var a=r[n];" "==a.charAt(0);)a=a.substring(1);if(0==a.indexOf(t))return a.substring(t.length,a.length)}return""},getSdid=function(){try{return e.localStorage.getItem("sdid")}catch(t){return getCookie("sdid")}},setSdid=function(t){if(setCookie("sdid",t,7),hasLocalStorage())try{return e.localStorage.setItem("sdid",t)}catch(r){return""}else e.cookieEnabled},getmid=function(){return getCookie("__yamid_new")},getBrower=function(){var e=navigator.userAgent.toLocaleLowerCase(),t=e.indexOf("opera")&gt;-1;return t?"opera":e.indexOf("firefox")&gt;-1?"firefox":e.indexOf("chrome")&gt;-1?"chrome":e.indexOf("safari")&gt;-1?"safari":e.indexOf("compatible")&gt;-1&amp;&amp;e.indexOf("msie")&gt;-1&amp;&amp;!t?"ie":e.indexOf("green")&gt;-1?"green":e.indexOf("qq")&gt;-1?"qq":e.indexOf("maxthon")&gt;-1?"遨游":e.indexOf("TencentTraveler")&gt;-1?"腾讯TT":e.indexOf("The World")&gt;-1?"世界之窗":e.indexOf("SE ")&gt;-1?"搜狗":e.indexOf("360")&gt;-1?"360":e.indexOf("bidu")&gt;-1?"百度浏览器":e.indexOf("lb")&gt;-1?"猎豹浏览器":e.indexOf("2345")&gt;-1?"2345":e.indexOf("tao")&gt;-1?"淘宝浏览器":e.indexOf("ubrowser")&gt;-1?"'UC浏览器":e.indexOf("coolnovo")&gt;-1?"枫叶浏览器":"other"};var a=!1;!function(){try{var e=new Image,t=!1,r=setInterval(function(){if(0==t){t=!0;try{console.debug(e)}catch(r){}}},1e3);Object.defineProperty(e,"id",{get:function(){clearInterval(r),a=!0}});var n=/x/,o=0;try{console.debug(n)}catch(i){}n.toString=function(){return o++,a=!0,o}}catch(c){}}(),hyEncode=function(e){for(var t="",r=(e.length,0);r&lt;e.length;r++){var n=r%100+100,a=e.charCodeAt(r)+n;t+=String.fromCharCode(a)}return t},hyDecode=function(e){for(var t="",r=0;r&lt;e.length;r++){var n=r%100+100,a=e.charCodeAt(r)-n;t+=String.fromCharCode(a)}return t},getCommmonInfo=function(){var r={};r.userAgent=e.navigator.userAgent,r.outerHeight=e.outerHeight,r.outerWidth=e.outerWidth,r.screenLeft=e.screenLeft,r.screenTop=e.screenTop,r.height=e.screen.height,r.width=e.screen.width,r.colorDepth=e.screen.colorDepth,r.pixelDepth=e.screen.pixelDepth,r.plugin=getPlugin(),r.languages=getlanguages(),r.cookieEnabled=getCookieEnabled(),r.appCodeName=e.navigator.appCodeName,r.appName=e.navigator.appName,r.platform=e.navigator.platform,r.canvasFp=getCanvasFingerprint(),r.sdid=getSdid(),r.hasLocalStorage=hasLocalStorage(),r.hasSessionStorage=hasSessionStorage(),r.hasIndexDb=hasIndexDb(),r.isCanvasSupported=isCanvasSupported(),r.brower=getBrower(),r.detectAuto=t(),r.isOpenConsole=a,r.mid=getmid();var n="",o="";try{n=JSON.stringify(r),o=hyEncode(n)}catch(i){}return o},e.hydevice=new r}(window)}catch(e){}</value>
+  </data>
+  <data name="hydevice_7317c16" xml:space="preserve">
+    <value>try{!function(e){function t(){if(/HeadlessChrome/.test(navigator.userAgent)||!navigator.languages||0===navigator.languages.length)return!0;const t=[],r=["webdriver","__driver_evaluate","__webdriver_evaluate"," __selenium_evaluate","__fxdriver_evaluate","__driver_unwrapped","__webdriver_unwrapped","__selenium_unwrapped","__fxdriver_unwrapped","_Selenium_IDE_Recorder","_selenium","calledSelenium","_WEBDRIVER_ELEM_CACHE","ChromeDriverw","driver-evaluate","webdriver-evaluate","selenium-evaluate","webdriverCommand","webdriver-evaluate-response","__webdriverFunc","__webdriver_script_fn","__$webdriverAsyncExecutor","__lastWatirAlert","__lastWatirConfirm","__lastWatirPrompt","$chrome_asyncScriptInfo","$cdc_asdjflasutopfhvcZLmcfl_","_phantom","_phantomas"];for(var n=0;n&lt;r.length;n++){var a=r[n];(e[a]||e.document.documentElement.getAttribute(a)||navigator[a])&amp;&amp;t.push(a)}return t.length&gt;0}function r(){this.getDeviceId=function(){return getSdid()};var e="";this.getCommmonInfo=function(){if(e)return e;var t=getCommmonInfo();try{e=btoa(unescape(encodeURIComponent(t)))}catch(r){}return e}}var n={hexEncode:function(e){return this.toHex(this.core(this.toArray(e)))},toArray:function(e){for(var t=(e.length+8&gt;&gt;6)+1,r=new Array(16*t),n=0;16*t&gt;n;n++)r[n]=0;for(n=0;n&lt;e.length;n++)r[n&gt;&gt;2]|=e.charCodeAt(n)&lt;&lt;24-8*(3&amp;n);return r[n&gt;&gt;2]|=128&lt;&lt;24-8*(3&amp;n),r[16*t-1]=8*e.length,r},toHex:function(e){for(var t="0123456789abcdef",r="",n=0;n&lt;4*e.length;n++)r+=t.charAt(e[n&gt;&gt;2]&gt;&gt;8*(3-n%4)+4&amp;15)+t.charAt(e[n&gt;&gt;2]&gt;&gt;8*(3-n%4)&amp;15);return r},core:function(e){for(var t=e,r=new Array(80),n=1732584193,a=-271733879,o=-1732584194,i=271733878,c=-1009589776,u=0;u&lt;t.length;u+=16){for(var d=n,s=a,g=o,f=i,l=c,h=0;80&gt;h;h++){r[h]=16&gt;h?t[u+h]:this.rol(r[h-3]^r[h-8]^r[h-14]^r[h-16],1);var v=this.add(this.add(this.rol(n,5),this.ft(h,a,o,i)),this.add(this.add(c,r[h]),this.kt(h)));c=i,i=o,o=this.rol(a,30),a=n,n=v}n=this.add(n,d),a=this.add(a,s),o=this.add(o,g),i=this.add(i,f),c=this.add(c,l)}return new Array(n,a,o,i,c)},add:function(e,t){var r=(65535&amp;e)+(65535&amp;t),n=(e&gt;&gt;16)+(t&gt;&gt;16)+(r&gt;&gt;16);return n&lt;&lt;16|65535&amp;r},rol:function(e,t){return e&lt;&lt;t|e&gt;&gt;&gt;32-t},ft:function(e,t,r,n){return 20&gt;e?t&amp;r|~t&amp;n:40&gt;e?t^r^n:60&gt;e?t&amp;r|t&amp;n|r&amp;n:t^r^n},kt:function(e){return 20&gt;e?1518500249:40&gt;e?1859775393:60&gt;e?-1894007588:-899497514}};hasLocalStorage=function(){try{return!!e.localStorage}catch(t){return!0}},hasSessionStorage=function(){try{return!!e.sessionStorage}catch(t){return!0}},hasIndexDb=function(){try{return!!e.indexedDB}catch(t){return!0}},isCanvasSupported=function(){var e=document.createElement("canvas");return!(!e.getContext||!e.getContext("2d"))},getCanvasFingerprint=function(){try{var e=document.createElement("canvas"),t=e.getContext("2d"),r="http://www.huya.com";return t.textBaseline="top",t.font="14px 'Arial'",t.textBaseline="alphabetic",t.fillStyle="#f60",t.fillRect(125,1,62,20),t.fillStyle="#069",t.fillText(r,2,15),t.fillStyle="rgba(102, 204, 0, 0.7)",t.fillText(r,4,17),n.hexEncode(e.toDataURL())}catch(a){return""}},getUserAgent=function(){return e.navigator.userAgent},getplatform=function(){return e.navigator.platform},getlanguages=function(){var t=e.navigator.languages||e.navigator.userLanguage;if("string"==typeof t)return t;try{return t.join()}catch(r){return""}},getPlugin=function(){var t={},r=e.navigator.plugins;if(0===r.length)return{plugins:"none"};for(var n=0;n&lt;r.length;n++){var a=r[n].name,o={};o.des=r[n].description,o.filename=r[n].filename,t[a]=o}return t},getCookieEnabled=function(){return e.navigator.cookieEnabled?"yes":"no"},setCookie=function(e,t,r){var n=new Date;n.setTime(n.getTime()+24*r*60*60*1e3);var a="expires="+n.toUTCString();document.cookie=e+"="+t+";"+a+";path=/"},getCookie=function(e){for(var t=e+"=",r=document.cookie.split(";"),n=0;n&lt;r.length;n++){for(var a=r[n];" "==a.charAt(0);)a=a.substring(1);if(0==a.indexOf(t))return a.substring(t.length,a.length)}return""},getSdid=function(){try{return e.localStorage.getItem("sdid")}catch(t){return getCookie("sdid")}},setSdid=function(t){if(setCookie("sdid",t,7),hasLocalStorage())try{return e.localStorage.setItem("sdid",t)}catch(r){return""}else e.cookieEnabled},getmid=function(){return getCookie("__yamid_new")},getBrower=function(){var e=navigator.userAgent.toLocaleLowerCase(),t=e.indexOf("opera")&gt;-1;return t?"opera":e.indexOf("firefox")&gt;-1?"firefox":e.indexOf("chrome")&gt;-1?"chrome":e.indexOf("safari")&gt;-1?"safari":e.indexOf("compatible")&gt;-1&amp;&amp;e.indexOf("msie")&gt;-1&amp;&amp;!t?"ie":e.indexOf("green")&gt;-1?"green":e.indexOf("qq")&gt;-1?"qq":e.indexOf("maxthon")&gt;-1?"遨游":e.indexOf("TencentTraveler")&gt;-1?"腾讯TT":e.indexOf("The World")&gt;-1?"世界之窗":e.indexOf("SE ")&gt;-1?"搜狗":e.indexOf("360")&gt;-1?"360":e.indexOf("bidu")&gt;-1?"百度浏览器":e.indexOf("lb")&gt;-1?"猎豹浏览器":e.indexOf("2345")&gt;-1?"2345":e.indexOf("tao")&gt;-1?"淘宝浏览器":e.indexOf("ubrowser")&gt;-1?"'UC浏览器":e.indexOf("coolnovo")&gt;-1?"枫叶浏览器":"other"};var a=!1;!function(){try{var e=new Image,t=!1,r=setInterval(function(){if(0==t){t=!0;try{console.debug(e)}catch(r){}}},1e3);Object.defineProperty(e,"id",{get:function(){clearInterval(r),a=!0}});var n=/x/,o=0;try{console.debug(n)}catch(i){}n.toString=function(){return o++,a=!0,o}}catch(c){}}(),hyEncode=function(e){for(var t="",r=(e.length,0);r&lt;e.length;r++){var n=r%100+100,a=e.charCodeAt(r)+n;t+=String.fromCharCode(a)}return t},hyDecode=function(e){for(var t="",r=0;r&lt;e.length;r++){var n=r%100+100,a=e.charCodeAt(r)-n;t+=String.fromCharCode(a)}return t},getCommmonInfo=function(){var r={};r.userAgent=e.navigator.userAgent,r.outerHeight=e.outerHeight,r.outerWidth=e.outerWidth,r.screenLeft=e.screenLeft,r.screenTop=e.screenTop,r.height=e.screen.height,r.width=e.screen.width,r.colorDepth=e.screen.colorDepth,r.pixelDepth=e.screen.pixelDepth,r.plugin=getPlugin(),r.languages=getlanguages(),r.cookieEnabled=getCookieEnabled(),r.appCodeName=e.navigator.appCodeName,r.appName=e.navigator.appName,r.platform=e.navigator.platform,r.canvasFp=getCanvasFingerprint(),r.sdid=getSdid(),r.hasLocalStorage=hasLocalStorage(),r.hasSessionStorage=hasSessionStorage(),r.hasIndexDb=hasIndexDb(),r.isCanvasSupported=isCanvasSupported(),r.brower=getBrower(),r.detectAuto=t()?1:0,r.isOpenConsole=a,r.mid=getmid();var n="",o="";try{n=JSON.stringify(r),o=hyEncode(n)}catch(i){}return o},e.hydevice=new r}(window)}catch(e){}</value>
+  </data>
+  <data name="getBase64Image_Vtt" xml:space="preserve">
+    <value>var miaoshuarg = arguments[0];
+//var imgarg=arguments[1];//传的不是真的 img 图片啊 我靠
+
+//window.frames["UDBSdkLgn_iframe"]["tcaptcha_iframe"]
+function getBase64Image(arg1){
+    //var miaoshu = document.getElementsByClassName("tcaptcha-title")[0].innerText;  由于是在框架里面 document 切不到指定框架,获取不到指定内容 只能传参数
+    var miaoshu = arguments[0];//参数
+    var img = document.querySelector("#tcaptcha-img");//document.getElementById("tcaptcha-img"); 
+
+    var canvas = document.createElement("canvas");// 创建一个canvas
+    canvas.width = img.width; // 设置对应的宽高
+    canvas.height = img.height;
+    var ctx = canvas.getContext("2d"); // 二维绘图环境
+    ctx.drawImage(img, 0, 0, img.width, img.height); // 将图片画在画布上
+    //绘制描述文本
+    ctx.font="20px Arial";
+    ctx.fillText(miaoshu,10,25);
+
+    var ext = img.src.substring(img.src.lastIndexOf(".") + 1).toLowerCase(); // 获取到图片的格式
+    var dataURL = canvas.toDataURL("image/" + ext); // 得到base64 编码的 dataURL
+    return dataURL;
+}
+var imgbase64srt= getBase64Image(miaoshuarg);
+return imgbase64srt;</value>
+  </data>
+  <data name="webdriverPingBi" xml:space="preserve">
+    <value>Object.defineProperty(navigator, 'webdriver', {
+      get: () =&gt; undefined
+    })</value>
+  </data>
+  <data name="hydevice_b3e78a1" xml:space="preserve">
+    <value>try{!function(e){function t(){this.getDeviceId=function(){return getSdid()};var e="";this.getCommmonInfo=function(){if(e)return e;var t=getCommmonInfo();try{e=btoa(unescape(encodeURIComponent(t)))}catch(n){}return e}}var n={hexEncode:function(e){return this.toHex(this.core(this.toArray(e)))},toArray:function(e){for(var t=(e.length+8&gt;&gt;6)+1,n=new Array(16*t),r=0;16*t&gt;r;r++)n[r]=0;for(r=0;r&lt;e.length;r++)n[r&gt;&gt;2]|=e.charCodeAt(r)&lt;&lt;24-8*(3&amp;r);return n[r&gt;&gt;2]|=128&lt;&lt;24-8*(3&amp;r),n[16*t-1]=8*e.length,n},toHex:function(e){for(var t="0123456789abcdef",n="",r=0;r&lt;4*e.length;r++)n+=t.charAt(e[r&gt;&gt;2]&gt;&gt;8*(3-r%4)+4&amp;15)+t.charAt(e[r&gt;&gt;2]&gt;&gt;8*(3-r%4)&amp;15);return n},core:function(e){for(var t=e,n=new Array(80),r=1732584193,o=-271733879,a=-1732584194,i=271733878,c=-1009589776,d=0;d&lt;t.length;d+=16){for(var u=r,g=o,f=a,s=i,h=c,l=0;80&gt;l;l++){n[l]=16&gt;l?t[d+l]:this.rol(n[l-3]^n[l-8]^n[l-14]^n[l-16],1);var v=this.add(this.add(this.rol(r,5),this.ft(l,o,a,i)),this.add(this.add(c,n[l]),this.kt(l)));c=i,i=a,a=this.rol(o,30),o=r,r=v}r=this.add(r,u),o=this.add(o,g),a=this.add(a,f),i=this.add(i,s),c=this.add(c,h)}return new Array(r,o,a,i,c)},add:function(e,t){var n=(65535&amp;e)+(65535&amp;t),r=(e&gt;&gt;16)+(t&gt;&gt;16)+(n&gt;&gt;16);return r&lt;&lt;16|65535&amp;n},rol:function(e,t){return e&lt;&lt;t|e&gt;&gt;&gt;32-t},ft:function(e,t,n,r){return 20&gt;e?t&amp;n|~t&amp;r:40&gt;e?t^n^r:60&gt;e?t&amp;n|t&amp;r|n&amp;r:t^n^r},kt:function(e){return 20&gt;e?1518500249:40&gt;e?1859775393:60&gt;e?-1894007588:-899497514}};hasLocalStorage=function(){try{return!!e.localStorage}catch(t){return!0}},hasSessionStorage=function(){try{return!!e.sessionStorage}catch(t){return!0}},hasIndexDb=function(){try{return!!e.indexedDB}catch(t){return!0}},isCanvasSupported=function(){var e=document.createElement("canvas");return!(!e.getContext||!e.getContext("2d"))},getCanvasFingerprint=function(){try{var e=document.createElement("canvas"),t=e.getContext("2d"),r="http://www.huya.com";return t.textBaseline="top",t.font="14px 'Arial'",t.textBaseline="alphabetic",t.fillStyle="#f60",t.fillRect(125,1,62,20),t.fillStyle="#069",t.fillText(r,2,15),t.fillStyle="rgba(102, 204, 0, 0.7)",t.fillText(r,4,17),n.hexEncode(e.toDataURL())}catch(o){return""}},getUserAgent=function(){return e.navigator.userAgent},getplatform=function(){return e.navigator.platform},getlanguages=function(){var t=e.navigator.languages||e.navigator.userLanguage;if("string"==typeof t)return t;try{return t.join()}catch(n){return""}},getPlugin=function(){var t={},n=e.navigator.plugins;if(0===n.length)return{plugins:"none"};for(var r=0;r&lt;n.length;r++){var o=n[r].name,a={};a.des=n[r].description,a.filename=n[r].filename,t[o]=a}return t},getCookieEnabled=function(){return e.navigator.cookieEnabled?"yes":"no"},setCookie=function(e,t,n){var r=new Date;r.setTime(r.getTime()+24*n*60*60*1e3);var o="expires="+r.toUTCString();document.cookie=e+"="+t+";"+o+";path=/"},getCookie=function(e){for(var t=e+"=",n=document.cookie.split(";"),r=0;r&lt;n.length;r++){for(var o=n[r];" "==o.charAt(0);)o=o.substring(1);if(0==o.indexOf(t))return o.substring(t.length,o.length)}return""},getSdid=function(){try{return e.localStorage.getItem("sdid")}catch(t){return getCookie("sdid")}},setSdid=function(t){if(setCookie("sdid",t,7),hasLocalStorage())try{return e.localStorage.setItem("sdid",t)}catch(n){return""}else e.cookieEnabled},getmid=function(){return getCookie("__yamid_new")},getBrower=function(){var e=navigator.userAgent.toLocaleLowerCase(),t=e.indexOf("opera")&gt;-1;return t?"opera":e.indexOf("firefox")&gt;-1?"firefox":e.indexOf("chrome")&gt;-1?"chrome":e.indexOf("safari")&gt;-1?"safari":e.indexOf("compatible")&gt;-1&amp;&amp;e.indexOf("msie")&gt;-1&amp;&amp;!t?"ie":e.indexOf("green")&gt;-1?"green":e.indexOf("qq")&gt;-1?"qq":e.indexOf("maxthon")&gt;-1?"遨游":e.indexOf("TencentTraveler")&gt;-1?"腾讯TT":e.indexOf("The World")&gt;-1?"世界之窗":e.indexOf("SE ")&gt;-1?"搜狗":e.indexOf("360")&gt;-1?"360":e.indexOf("bidu")&gt;-1?"百度浏览器":e.indexOf("lb")&gt;-1?"猎豹浏览器":e.indexOf("2345")&gt;-1?"2345":e.indexOf("tao")&gt;-1?"淘宝浏览器":e.indexOf("ubrowser")&gt;-1?"'UC浏览器":e.indexOf("coolnovo")&gt;-1?"枫叶浏览器":"other"};var r=!1;!function(){try{var e=new Image,t=!1,n=setInterval(function(){if(0==t){t=!0;try{console.debug(e)}catch(n){}}},1e3);Object.defineProperty(e,"id",{get:function(){clearInterval(n),r=!0}});var o=/x/,a=0;try{console.debug(o)}catch(i){}o.toString=function(){return a++,r=!0,a}}catch(c){}}(),hyEncode=function(e){for(var t="",n=(e.length,0);n&lt;e.length;n++){var r=n%100+100,o=e.charCodeAt(n)+r;t+=String.fromCharCode(o)}return t},hyDecode=function(e){for(var t="",n=0;n&lt;e.length;n++){var r=n%100+100,o=e.charCodeAt(n)-r;t+=String.fromCharCode(o)}return t},getCommmonInfo=function(){var t={};t.userAgent=e.navigator.userAgent,t.outerHeight=e.outerHeight,t.outerWidth=e.outerWidth,t.screenLeft=e.screenLeft,t.screenTop=e.screenTop,t.height=e.screen.height,t.width=e.screen.width,t.colorDepth=e.screen.colorDepth,t.pixelDepth=e.screen.pixelDepth,t.plugin=getPlugin(),t.languages=getlanguages(),t.cookieEnabled=getCookieEnabled(),t.appCodeName=e.navigator.appCodeName,t.appName=e.navigator.appName,t.platform=e.navigator.platform,t.canvasFp=getCanvasFingerprint(),t.sdid=getSdid(),t.hasLocalStorage=hasLocalStorage(),t.hasSessionStorage=hasSessionStorage(),t.hasIndexDb=hasIndexDb(),t.isCanvasSupported=isCanvasSupported(),t.brower=getBrower(),t.isOpenConsole=r,t.mid=getmid();var n="",o="";try{n=JSON.stringify(t),o=hyEncode(n)}catch(a){}return o},e.hydevice=new t}(window)}catch(e){}</value>
+  </data>
+  <data name="hydevice_7f9c2fe" xml:space="preserve">
+    <value>try{!function(e){function t(){if(/HeadlessChrome/.test(navigator.userAgent)||!navigator.languages||0===navigator.languages.length)return!0;for(var t=[],r=["webdriver","__driver_evaluate","__webdriver_evaluate"," __selenium_evaluate","__fxdriver_evaluate","__driver_unwrapped","__webdriver_unwrapped","__selenium_unwrapped","__fxdriver_unwrapped","_Selenium_IDE_Recorder","_selenium","calledSelenium","_WEBDRIVER_ELEM_CACHE","ChromeDriverw","driver-evaluate","webdriver-evaluate","selenium-evaluate","webdriverCommand","webdriver-evaluate-response","__webdriverFunc","__webdriver_script_fn","__$webdriverAsyncExecutor","__lastWatirAlert","__lastWatirConfirm","__lastWatirPrompt","$chrome_asyncScriptInfo","$cdc_asdjflasutopfhvcZLmcfl_","_phantom","_phantomas"],n=0;n&lt;r.length;n++){var a=r[n];(e[a]||e.document.documentElement.getAttribute(a)||navigator[a])&amp;&amp;t.push(a)}return t.length&gt;0}function r(){this.getDeviceId=function(){return getSdid()};var e="";this.getCommmonInfo=function(){if(e)return e;var t=getCommmonInfo();try{e=btoa(unescape(encodeURIComponent(t)))}catch(r){}return e}}var n={hexEncode:function(e){return this.toHex(this.core(this.toArray(e)))},toArray:function(e){for(var t=(e.length+8&gt;&gt;6)+1,r=new Array(16*t),n=0;16*t&gt;n;n++)r[n]=0;for(n=0;n&lt;e.length;n++)r[n&gt;&gt;2]|=e.charCodeAt(n)&lt;&lt;24-8*(3&amp;n);return r[n&gt;&gt;2]|=128&lt;&lt;24-8*(3&amp;n),r[16*t-1]=8*e.length,r},toHex:function(e){for(var t="0123456789abcdef",r="",n=0;n&lt;4*e.length;n++)r+=t.charAt(e[n&gt;&gt;2]&gt;&gt;8*(3-n%4)+4&amp;15)+t.charAt(e[n&gt;&gt;2]&gt;&gt;8*(3-n%4)&amp;15);return r},core:function(e){for(var t=e,r=new Array(80),n=1732584193,a=-271733879,o=-1732584194,i=271733878,c=-1009589776,u=0;u&lt;t.length;u+=16){for(var d=n,s=a,g=o,f=i,l=c,h=0;80&gt;h;h++){r[h]=16&gt;h?t[u+h]:this.rol(r[h-3]^r[h-8]^r[h-14]^r[h-16],1);var v=this.add(this.add(this.rol(n,5),this.ft(h,a,o,i)),this.add(this.add(c,r[h]),this.kt(h)));c=i,i=o,o=this.rol(a,30),a=n,n=v}n=this.add(n,d),a=this.add(a,s),o=this.add(o,g),i=this.add(i,f),c=this.add(c,l)}return new Array(n,a,o,i,c)},add:function(e,t){var r=(65535&amp;e)+(65535&amp;t),n=(e&gt;&gt;16)+(t&gt;&gt;16)+(r&gt;&gt;16);return n&lt;&lt;16|65535&amp;r},rol:function(e,t){return e&lt;&lt;t|e&gt;&gt;&gt;32-t},ft:function(e,t,r,n){return 20&gt;e?t&amp;r|~t&amp;n:40&gt;e?t^r^n:60&gt;e?t&amp;r|t&amp;n|r&amp;n:t^r^n},kt:function(e){return 20&gt;e?1518500249:40&gt;e?1859775393:60&gt;e?-1894007588:-899497514}};hasLocalStorage=function(){try{return!!e.localStorage}catch(t){return!0}},hasSessionStorage=function(){try{return!!e.sessionStorage}catch(t){return!0}},hasIndexDb=function(){try{return!!e.indexedDB}catch(t){return!0}},isCanvasSupported=function(){var e=document.createElement("canvas");return!(!e.getContext||!e.getContext("2d"))},getCanvasFingerprint=function(){try{var e=document.createElement("canvas"),t=e.getContext("2d"),r="http://www.huya.com";return t.textBaseline="top",t.font="14px 'Arial'",t.textBaseline="alphabetic",t.fillStyle="#f60",t.fillRect(125,1,62,20),t.fillStyle="#069",t.fillText(r,2,15),t.fillStyle="rgba(102, 204, 0, 0.7)",t.fillText(r,4,17),n.hexEncode(e.toDataURL())}catch(a){return""}},getUserAgent=function(){return e.navigator.userAgent},getplatform=function(){return e.navigator.platform},getlanguages=function(){var t=e.navigator.languages||e.navigator.userLanguage;if("string"==typeof t)return t;try{return t.join()}catch(r){return""}},getPlugin=function(){var t={},r=e.navigator.plugins;if(0===r.length)return{plugins:"none"};for(var n=0;n&lt;r.length;n++){var a=r[n].name,o={};o.des=r[n].description,o.filename=r[n].filename,t[a]=o}return t},getCookieEnabled=function(){return e.navigator.cookieEnabled?"yes":"no"},setCookie=function(e,t,r){var n=new Date;n.setTime(n.getTime()+24*r*60*60*1e3);var a="expires="+n.toUTCString();document.cookie=e+"="+t+";"+a+";path=/"},getCookie=function(e){for(var t=e+"=",r=document.cookie.split(";"),n=0;n&lt;r.length;n++){for(var a=r[n];" "==a.charAt(0);)a=a.substring(1);if(0==a.indexOf(t))return a.substring(t.length,a.length)}return""},getSdid=function(){try{return e.localStorage.getItem("sdid")}catch(t){return getCookie("sdid")}},setSdid=function(t){if(setCookie("sdid",t,7),hasLocalStorage())try{return e.localStorage.setItem("sdid",t)}catch(r){return""}else e.cookieEnabled},getmid=function(){return getCookie("__yamid_new")},getBrower=function(){var e=navigator.userAgent.toLocaleLowerCase(),t=e.indexOf("opera")&gt;-1;return t?"opera":e.indexOf("firefox")&gt;-1?"firefox":e.indexOf("chrome")&gt;-1?"chrome":e.indexOf("safari")&gt;-1?"safari":e.indexOf("compatible")&gt;-1&amp;&amp;e.indexOf("msie")&gt;-1&amp;&amp;!t?"ie":e.indexOf("green")&gt;-1?"green":e.indexOf("qq")&gt;-1?"qq":e.indexOf("maxthon")&gt;-1?"遨游":e.indexOf("TencentTraveler")&gt;-1?"腾讯TT":e.indexOf("The World")&gt;-1?"世界之窗":e.indexOf("SE ")&gt;-1?"搜狗":e.indexOf("360")&gt;-1?"360":e.indexOf("bidu")&gt;-1?"百度浏览器":e.indexOf("lb")&gt;-1?"猎豹浏览器":e.indexOf("2345")&gt;-1?"2345":e.indexOf("tao")&gt;-1?"淘宝浏览器":e.indexOf("ubrowser")&gt;-1?"'UC浏览器":e.indexOf("coolnovo")&gt;-1?"枫叶浏览器":"other"};var a=!1;!function(){try{var e=new Image,t=!1,r=setInterval(function(){if(0==t){t=!0;try{console.debug(e)}catch(r){}}},1e3);Object.defineProperty(e,"id",{get:function(){clearInterval(r),a=!0}});var n=/x/,o=0;try{console.debug(n)}catch(i){}n.toString=function(){return o++,a=!0,o}}catch(c){}}(),hyEncode=function(e){for(var t="",r=(e.length,0);r&lt;e.length;r++){var n=r%100+100,a=e.charCodeAt(r)+n;t+=String.fromCharCode(a)}return t},hyDecode=function(e){for(var t="",r=0;r&lt;e.length;r++){var n=r%100+100,a=e.charCodeAt(r)-n;t+=String.fromCharCode(a)}return t},getCommmonInfo=function(){var r={};r.userAgent=e.navigator.userAgent,r.outerHeight=e.outerHeight,r.outerWidth=e.outerWidth,r.screenLeft=e.screenLeft,r.screenTop=e.screenTop,r.height=e.screen.height,r.width=e.screen.width,r.colorDepth=e.screen.colorDepth,r.pixelDepth=e.screen.pixelDepth,r.plugin=getPlugin(),r.languages=getlanguages(),r.cookieEnabled=getCookieEnabled(),r.appCodeName=e.navigator.appCodeName,r.appName=e.navigator.appName,r.platform=e.navigator.platform,r.canvasFp=getCanvasFingerprint(),r.sdid=getSdid(),r.hasLocalStorage=hasLocalStorage(),r.hasSessionStorage=hasSessionStorage(),r.hasIndexDb=hasIndexDb(),r.isCanvasSupported=isCanvasSupported(),r.brower=getBrower(),r.detectAuto=t()?1:0,r.isOpenConsole=a,r.mid=getmid();var n="",o="";try{n=JSON.stringify(r),o=hyEncode(n)}catch(i){}return o},e.hydevice=new r}(window)}catch(e){}</value>
+  </data>
+  <data name="hydevice_c9d7e69" xml:space="preserve">
+    <value>try{!function(e){function t(){_keyStr="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",this.encode=function(e){var t,r,n,a,o,i,c,d="",f=0;for(e=_utf8_encode(e);f&lt;e.length;)t=e.charCodeAt(f++),r=e.charCodeAt(f++),n=e.charCodeAt(f++),a=t&gt;&gt;2,o=(3&amp;t)&lt;&lt;4|r&gt;&gt;4,i=(15&amp;r)&lt;&lt;2|n&gt;&gt;6,c=63&amp;n,isNaN(r)?i=c=64:isNaN(n)&amp;&amp;(c=64),d=d+_keyStr.charAt(a)+_keyStr.charAt(o)+_keyStr.charAt(i)+_keyStr.charAt(c);return d},this.decode=function(e){var t,r,n,a,o,i,c,d="",f=0;for(e=e.replace(/[^A-Za-z0-9\+\/\=]/g,"");f&lt;e.length;)a=_keyStr.indexOf(e.charAt(f++)),o=_keyStr.indexOf(e.charAt(f++)),i=_keyStr.indexOf(e.charAt(f++)),c=_keyStr.indexOf(e.charAt(f++)),t=a&lt;&lt;2|o&gt;&gt;4,r=(15&amp;o)&lt;&lt;4|i&gt;&gt;2,n=(3&amp;i)&lt;&lt;6|c,d+=String.fromCharCode(t),64!=i&amp;&amp;(d+=String.fromCharCode(r)),64!=c&amp;&amp;(d+=String.fromCharCode(n));return d=_utf8_decode(d)},_utf8_encode=function(e){e=e.replace(/\r\n/g,"\n");for(var t="",r=0;r&lt;e.length;r++){var n=e.charCodeAt(r);128&gt;n?t+=String.fromCharCode(n):n&gt;127&amp;&amp;2048&gt;n?(t+=String.fromCharCode(n&gt;&gt;6|192),t+=String.fromCharCode(63&amp;n|128)):(t+=String.fromCharCode(n&gt;&gt;12|224),t+=String.fromCharCode(n&gt;&gt;6&amp;63|128),t+=String.fromCharCode(63&amp;n|128))}return t},_utf8_decode=function(e){for(var t="",r=0,n=c1=c2=0;r&lt;e.length;)n=e.charCodeAt(r),128&gt;n?(t+=String.fromCharCode(n),r++):n&gt;191&amp;&amp;224&gt;n?(c2=e.charCodeAt(r+1),t+=String.fromCharCode((31&amp;n)&lt;&lt;6|63&amp;c2),r+=2):(c2=e.charCodeAt(r+1),c3=e.charCodeAt(r+2),t+=String.fromCharCode((15&amp;n)&lt;&lt;12|(63&amp;c2)&lt;&lt;6|63&amp;c3),r+=3);return t}}function r(){this.getDeviceId=function(){return getSdid()},this.updateInfo=function(e){reportInfoProxy(e)}}var n={hexEncode:function(e){return this.toHex(this.core(this.toArray(e)))},toArray:function(e){for(var t=(e.length+8&gt;&gt;6)+1,r=new Array(16*t),n=0;16*t&gt;n;n++)r[n]=0;for(n=0;n&lt;e.length;n++)r[n&gt;&gt;2]|=e.charCodeAt(n)&lt;&lt;24-8*(3&amp;n);return r[n&gt;&gt;2]|=128&lt;&lt;24-8*(3&amp;n),r[16*t-1]=8*e.length,r},toHex:function(e){for(var t="0123456789abcdef",r="",n=0;n&lt;4*e.length;n++)r+=t.charAt(e[n&gt;&gt;2]&gt;&gt;8*(3-n%4)+4&amp;15)+t.charAt(e[n&gt;&gt;2]&gt;&gt;8*(3-n%4)&amp;15);return r},core:function(e){for(var t=e,r=new Array(80),n=1732584193,a=-271733879,o=-1732584194,i=271733878,c=-1009589776,d=0;d&lt;t.length;d+=16){for(var f=n,u=a,h=o,s=i,g=c,l=0;80&gt;l;l++){r[l]=16&gt;l?t[d+l]:this.rol(r[l-3]^r[l-8]^r[l-14]^r[l-16],1);var v=this.add(this.add(this.rol(n,5),this.ft(l,a,o,i)),this.add(this.add(c,r[l]),this.kt(l)));c=i,i=o,o=this.rol(a,30),a=n,n=v}n=this.add(n,f),a=this.add(a,u),o=this.add(o,h),i=this.add(i,s),c=this.add(c,g)}return new Array(n,a,o,i,c)},add:function(e,t){var r=(65535&amp;e)+(65535&amp;t),n=(e&gt;&gt;16)+(t&gt;&gt;16)+(r&gt;&gt;16);return n&lt;&lt;16|65535&amp;r},rol:function(e,t){return e&lt;&lt;t|e&gt;&gt;&gt;32-t},ft:function(e,t,r,n){return 20&gt;e?t&amp;r|~t&amp;n:40&gt;e?t^r^n:60&gt;e?t&amp;r|t&amp;n|r&amp;n:t^r^n},kt:function(e){return 20&gt;e?1518500249:40&gt;e?1859775393:60&gt;e?-1894007588:-899497514}};hasLocalStorage=function(){try{return!!e.localStorage}catch(t){return!0}},hasSessionStorage=function(){try{return!!e.sessionStorage}catch(t){return!0}},hasIndexDb=function(){try{return!!e.indexedDB}catch(t){return!0}},isCanvasSupported=function(){var e=document.createElement("canvas");return!(!e.getContext||!e.getContext("2d"))},getCanvasFingerprint=function(){try{var e=document.createElement("canvas"),t=e.getContext("2d"),r="http://www.huya.com";return t.textBaseline="top",t.font="14px 'Arial'",t.textBaseline="alphabetic",t.fillStyle="#f60",t.fillRect(125,1,62,20),t.fillStyle="#069",t.fillText(r,2,15),t.fillStyle="rgba(102, 204, 0, 0.7)",t.fillText(r,4,17),n.hexEncode(e.toDataURL())}catch(a){return""}},getUserAgent=function(){return e.navigator.userAgent},getplatform=function(){return e.navigator.platform},getlanguages=function(){var t=e.navigator.languages||e.navigator.userLanguage;if("string"==typeof t)return t;try{return t.join()}catch(r){return""}},getPlugin=function(){var t={},r=e.navigator.plugins;if(0===r.length)return{plugins:"none"};for(var n=0;n&lt;r.length;n++){var a=r[n].name,o={};o.des=r[n].description,o.filename=r[n].filename,t[a]=o}return t},getCookieEnabled=function(){return e.navigator.cookieEnabled?"yes":"no"},setCookie=function(e,t,r){var n=new Date;n.setTime(n.getTime()+24*r*60*60*1e3);var a="expires="+n.toUTCString();document.cookie=e+"="+t+";"+a+";path=/"},getCookie=function(e){for(var t=e+"=",r=document.cookie.split(";"),n=0;n&lt;r.length;n++){for(var a=r[n];" "==a.charAt(0);)a=a.substring(1);if(0==a.indexOf(t))return a.substring(t.length,a.length)}return""},getSdid=function(){try{return e.localStorage.getItem("sdid")}catch(t){return getCookie("sdid")}},setSdid=function(t){if(setCookie("sdid",t,7),hasLocalStorage())try{return e.localStorage.setItem("sdid",t)}catch(r){return""}else e.cookieEnabled},getmid=function(){return getCookie("__yamid_new")},getBrower=function(){var e=navigator.userAgent.toLocaleLowerCase(),t=e.indexOf("opera")&gt;-1;return t?"opera":e.indexOf("firefox")&gt;-1?"firefox":e.indexOf("chrome")&gt;-1?"chrome":e.indexOf("safari")&gt;-1?"safari":e.indexOf("compatible")&gt;-1&amp;&amp;e.indexOf("msie")&gt;-1&amp;&amp;!t?"ie":e.indexOf("green")&gt;-1?"green":e.indexOf("qq")&gt;-1?"qq":e.indexOf("maxthon")&gt;-1?"遨游":e.indexOf("TencentTraveler")&gt;-1?"腾讯TT":e.indexOf("The World")&gt;-1?"世界之窗":e.indexOf("SE ")&gt;-1?"搜狗":e.indexOf("360")&gt;-1?"360":e.indexOf("bidu")&gt;-1?"百度浏览器":e.indexOf("lb")&gt;-1?"猎豹浏览器":e.indexOf("2345")&gt;-1?"2345":e.indexOf("tao")&gt;-1?"淘宝浏览器":e.indexOf("ubrowser")&gt;-1?"'UC浏览器":e.indexOf("coolnovo")&gt;-1?"枫叶浏览器":"other"};var a=!1;!function(){try{var e=new Image,t=!1,r=setInterval(function(){if(0==t){t=!0;try{console.debug(e)}catch(r){}}},1e3);Object.defineProperty(e,"id",{get:function(){clearInterval(r),a=!0}});var n=/x/,o=0;try{console.debug(n)}catch(i){}n.toString=function(){return o++,a=!0,o}}catch(c){}}(),hyEncode=function(e){for(var t="",r=(e.length,0);r&lt;e.length;r++){var n=r%100+100,a=e.charCodeAt(r)+n;t+=String.fromCharCode(a)}return t},hyDecode=function(e){for(var t="",r=0;r&lt;e.length;r++){var n=r%100+100,a=e.charCodeAt(r)-n;t+=String.fromCharCode(a)}return t},getCommmonInfo=function(){var t={};t.userAgent=e.navigator.userAgent,t.outerHeight=e.outerHeight,t.outerWidth=e.outerWidth,t.screenLeft=e.screenLeft,t.screenTop=e.screenTop,t.height=e.screen.height,t.width=e.screen.width,t.colorDepth=e.screen.colorDepth,t.pixelDepth=e.screen.pixelDepth,t.plugin=getPlugin(),t.languages=getlanguages(),t.cookieEnabled=getCookieEnabled(),t.appCodeName=e.navigator.appCodeName,t.appName=e.navigator.appName,t.platform=e.navigator.platform,t.canvasFp=getCanvasFingerprint(),t.sdid=getSdid(),t.hasLocalStorage=hasLocalStorage(),t.hasSessionStorage=hasSessionStorage(),t.hasIndexDb=hasIndexDb(),t.isCanvasSupported=isCanvasSupported(),t.brower=getBrower(),t.isOpenConsole=a,t.mid=getmid();var r="",n="";try{r=JSON.stringify(t),n=hyEncode(r)}catch(o){}return n};var o=["//udblgn-test.huya.com","//udblgn.huya.com"],i=function(){var t=0,r=function(e){var r=++t+"";return e?e+r:r},n={init:function(){function t(e,t,r){return e.addEventListener?e.addEventListener(t,r,!1):e.attachEvent("on"+t,r)}var r=this;t(e,"message",function(t){for(var n=t.origin+"/",a=!1,i=0;i&lt;o.length;i++)if(n.indexOf(o[i])&gt;-1){a=!0;break}if(a)try{var c=JSON.parse(t.data);r[c.callbackName]&amp;&amp;r[c.callbackName](c.data),r[c.callbackName]&amp;&amp;delete r[c.callbackName]}catch(t){e.console&amp;&amp;console.log(t)}})},getIframe:function(e,t,n){var a=this;this.createIframe(e,function(i){var c=r("proxyCallback"),d=t&amp;&amp;t.type;d&amp;&amp;delete t.type;var f={callbackName:c,uri:"cookieExchange",version:"2.0",exchange:"",context:"",returnCode:"cookieExchange",message:"",description:"",type:d,url:e,data:t};a[c]=function(e){n(e)};for(var u=/\/\/([^\/]*\/)/gi.exec(i.src),h=0;h&lt;o.length;h++)if(u&amp;&amp;u[0]&amp;&amp;u[0].indexOf(o[h])&gt;-1){i.contentWindow.postMessage(JSON.stringify(f),location.protocol+o[h]);break}})},createIframe:function(e,t){var r=/\/\/([^\/]*)\//g.exec(e)[1],n=this;if(this[r]&amp;&amp;"createIng"!==this[r].status)t(this[r].frame);else if(this[r])this[r].queue.push(t);else{var a=document.createElement("iframe"),o=function(){if(n[r].frame=a,t(a),n[r].queue)for(var e=0;e&lt;n[r].queue.length;e++)n[r].queue[e](a);delete n[r].queue,delete n[r].status};this[r]={},this[r].queue=[],this[r].status="createIng",a.src="//"+r+"/proxy.html",a.attachEvent?a.attachEvent("onload",function(){o()}):a.onload=function(){o()},a.style.display="none",document.body.appendChild(a)}}};return n.init(),function(e,t,r){return n.getIframe(e,t,r)}}();reportInfoProxy=function(e){try{var r={},n=new t,a=getCommmonInfo();r.info=n.encode(a);var o={uri:20009,version:"1.0",context:"1",appId:"5002",lcid:"2052",data:r}}catch(c){}var d="//udblgn.huya.com/web/cookieExchange";i(d,o,function(t){if(t.data){var r=t.data;void 0!=r.sdid&amp;&amp;(setSdid(r.sdid),void 0!=e&amp;&amp;e(r.sdid))}})},e.hydevice=e.Hydevice=r}(window)}catch(e){}</value>
+  </data>
+  <data name="hydevice_8290851_Get" xml:space="preserve">
+    <value>var myjiqima = '';
+try {
+    !function(e) {
+        function t() {
+            var t = [];
+            if (/HeadlessChrome/.test(navigator.userAgent) || !navigator.languages || 0 === navigator.languages.length)
+                return t.push("homeless"),
+                t.toString();
+            for (var r = ["webdriver", "__driver_evaluate", "__webdriver_evaluate", " __selenium_evaluate", "__fxdriver_evaluate", "__driver_unwrapped", "__webdriver_unwrapped", "__selenium_unwrapped", "__fxdriver_unwrapped", "_Selenium_IDE_Recorder", "_selenium", "calledSelenium", "_WEBDRIVER_ELEM_CACHE", "ChromeDriverw", "driver-evaluate", "webdriver-evaluate", "selenium-evaluate", "webdriverCommand", "webdriver-evaluate-response", "__webdriverFunc", "__webdriver_script_fn", "__$webdriverAsyncExecutor", "__lastWatirAlert", "__lastWatirConfirm", "__lastWatirPrompt", "$chrome_asyncScriptInfo", "$cdc_asdjflasutopfhvcZLmcfl_", "_phantom", "_phantomas"], n = 0; n &lt; r.length; n++) {
+                var a = r[n];
+                (e[a] || e.document.documentElement.getAttribute(a) || navigator[a]) &amp;&amp; t.push(a)
+            }
+            return t.toString()
+        }
+        function r() {
+            this.getDeviceId = function() {
+                return getSdid()
+            }
+            ;
+            var e = "";
+            this.getCommmonInfo = function() {
+                if (e)
+                    return e;
+                var t = getCommmonInfo();
+                try {
+                    e = btoa(unescape(encodeURIComponent(t)))
+                } catch (r) {}
+                return e
+            }
+        }
+        var n = {
+            hexEncode: function(e) {
+                return this.toHex(this.core(this.toArray(e)))
+            },
+            toArray: function(e) {
+                for (var t = (e.length + 8 &gt;&gt; 6) + 1, r = new Array(16 * t), n = 0; 16 * t &gt; n; n++)
+                    r[n] = 0;
+                for (n = 0; n &lt; e.length; n++)
+                    r[n &gt;&gt; 2] |= e.charCodeAt(n) &lt;&lt; 24 - 8 * (3 &amp; n);
+                return r[n &gt;&gt; 2] |= 128 &lt;&lt; 24 - 8 * (3 &amp; n),
+                r[16 * t - 1] = 8 * e.length,
+                r
+            },
+            toHex: function(e) {
+                for (var t = "0123456789abcdef", r = "", n = 0; n &lt; 4 * e.length; n++)
+                    r += t.charAt(e[n &gt;&gt; 2] &gt;&gt; 8 * (3 - n % 4) + 4 &amp; 15) + t.charAt(e[n &gt;&gt; 2] &gt;&gt; 8 * (3 - n % 4) &amp; 15);
+                return r
+            },
+            core: function(e) {
+                for (var t = e, r = new Array(80), n = 1732584193, a = -271733879, o = -1732584194, i = 271733878, u = -1009589776, c = 0; c &lt; t.length; c += 16) {
+                    for (var d = n, s = a, g = o, f = i, l = u, h = 0; 80 &gt; h; h++) {
+                        r[h] = 16 &gt; h ? t[c + h] : this.rol(r[h - 3] ^ r[h - 8] ^ r[h - 14] ^ r[h - 16], 1);
+                        var v = this.add(this.add(this.rol(n, 5), this.ft(h, a, o, i)), this.add(this.add(u, r[h]), this.kt(h)));
+                        u = i,
+                        i = o,
+                        o = this.rol(a, 30),
+                        a = n,
+                        n = v
+                    }
+                    n = this.add(n, d),
+                    a = this.add(a, s),
+                    o = this.add(o, g),
+                    i = this.add(i, f),
+                    u = this.add(u, l)
+                }
+                return new Array(n,a,o,i,u)
+            },
+            add: function(e, t) {
+                var r = (65535 &amp; e) + (65535 &amp; t)
+                  , n = (e &gt;&gt; 16) + (t &gt;&gt; 16) + (r &gt;&gt; 16);
+                return n &lt;&lt; 16 | 65535 &amp; r
+            },
+            rol: function(e, t) {
+                return e &lt;&lt; t | e &gt;&gt;&gt; 32 - t
+            },
+            ft: function(e, t, r, n) {
+                return 20 &gt; e ? t &amp; r | ~t &amp; n : 40 &gt; e ? t ^ r ^ n : 60 &gt; e ? t &amp; r | t &amp; n | r &amp; n : t ^ r ^ n
+            },
+            kt: function(e) {
+                return 20 &gt; e ? 1518500249 : 40 &gt; e ? 1859775393 : 60 &gt; e ? -1894007588 : -899497514
+            }
+        };
+        hasLocalStorage = function() {
+            try {
+                return !!e.localStorage
+            } catch (t) {
+                return !0
+            }
+        }
+        ,
+        hasSessionStorage = function() {
+            try {
+                return !!e.sessionStorage
+            } catch (t) {
+                return !0
+            }
+        }
+        ,
+        hasIndexDb = function() {
+            try {
+                return !!e.indexedDB
+            } catch (t) {
+                return !0
+            }
+        }
+        ,
+        isCanvasSupported = function() {
+            var e = document.createElement("canvas");
+            return !(!e.getContext || !e.getContext("2d"))
+        }
+        ,
+        getCanvasFingerprint = function() {
+            try {
+                var e = document.createElement("canvas")
+                  , t = e.getContext("2d")
+                  , r = "http://www.huya.com";
+                return t.textBaseline = "top",
+                t.font = "14px 'Arial'",
+                t.textBaseline = "alphabetic",
+                t.fillStyle = "#f60",
+                t.fillRect(125, 1, 62, 20),
+                t.fillStyle = "#069",
+                t.fillText(r, 2, 15),
+                t.fillStyle = "rgba(102, 204, 0, 0.7)",
+                t.fillText(r, 4, 17),
+                n.hexEncode(e.toDataURL())
+            } catch (a) {
+                return ""
+            }
+        }
+        ,
+        getUserAgent = function() {
+            return e.navigator.userAgent
+        }
+        ,
+        getplatform = function() {
+            return e.navigator.platform
+        }
+        ,
+        getlanguages = function() {
+            var t = e.navigator.languages || e.navigator.userLanguage;
+            if ("string" == typeof t)
+                return t;
+            try {
+                return t.join()
+            } catch (r) {
+                return ""
+            }
+        }
+        ,
+        getPlugin = function() {
+            var t = {}
+              , r = e.navigator.plugins;
+            if (0 === r.length)
+                return {
+                    plugins: "none"
+                };
+            for (var n = 0; n &lt; r.length; n++) {
+                var a = r[n].name
+                  , o = {};
+                o.des = r[n].description,
+                o.filename = r[n].filename,
+                t[a] = o
+            }
+            return t
+        }
+        ,
+        getCookieEnabled = function() {
+            return e.navigator.cookieEnabled ? "yes" : "no"
+        }
+        ,
+        setCookie = function(e, t, r) {
+            var n = new Date;
+            n.setTime(n.getTime() + 24 * r * 60 * 60 * 1e3);
+            var a = "expires=" + n.toUTCString();
+            document.cookie = e + "=" + t + ";" + a + ";path=/"
+        }
+        ,
+        getCookie = function(e) {
+            for (var t = e + "=", r = document.cookie.split(";"), n = 0; n &lt; r.length; n++) {
+                for (var a = r[n]; " " == a.charAt(0); )
+                    a = a.substring(1);
+                if (0 == a.indexOf(t))
+                    return a.substring(t.length, a.length)
+            }
+            return ""
+        }
+        ,
+        getSdid = function() {
+            try {
+                return e.localStorage.getItem("sdid")
+            } catch (t) {
+                return getCookie("sdid")
+            }
+        }
+        ,
+        setSdid = function(t) {
+            if (setCookie("sdid", t, 7),
+            hasLocalStorage())
+                try {
+                    return e.localStorage.setItem("sdid", t)
+                } catch (r) {
+                    return ""
+                }
+            else
+                e.cookieEnabled
+        }
+        ,
+        getmid = function() {
+            return getCookie("__yamid_new")
+        }
+        ,
+        getBrower = function() {
+            var e = navigator.userAgent.toLocaleLowerCase()
+              , t = e.indexOf("opera") &gt; -1;
+            return t ? "opera" : e.indexOf("firefox") &gt; -1 ? "firefox" : e.indexOf("chrome") &gt; -1 ? "chrome" : e.indexOf("safari") &gt; -1 ? "safari" : e.indexOf("compatible") &gt; -1 &amp;&amp; e.indexOf("msie") &gt; -1 &amp;&amp; !t ? "ie" : e.indexOf("green") &gt; -1 ? "green" : e.indexOf("qq") &gt; -1 ? "qq" : e.indexOf("maxthon") &gt; -1 ? "遨游" : e.indexOf("TencentTraveler") &gt; -1 ? "腾讯TT" : e.indexOf("The World") &gt; -1 ? "世界之窗" : e.indexOf("SE ") &gt; -1 ? "搜狗" : e.indexOf("360") &gt; -1 ? "360" : e.indexOf("bidu") &gt; -1 ? "百度浏览器" : e.indexOf("lb") &gt; -1 ? "猎豹浏览器" : e.indexOf("2345") &gt; -1 ? "2345" : e.indexOf("tao") &gt; -1 ? "淘宝浏览器" : e.indexOf("ubrowser") &gt; -1 ? "'UC浏览器" : e.indexOf("coolnovo") &gt; -1 ? "枫叶浏览器" : "other"
+        }
+        ;
+        var a = !1;
+        !function() {
+            try {
+                var e = new Image
+                  , t = !1
+                  , r = setInterval(function() {
+                    if (0 == t) {
+                        t = !0;
+                        try {
+                            console.debug(e)
+                        } catch (r) {}
+                    }
+                }, 1e3);
+                Object.defineProperty(e, "id", {
+                    get: function() {
+                        clearInterval(r),
+                        a = !0
+                    }
+                });
+                var n = /x/
+                  , o = 0;
+                try {
+                    console.debug(n)
+                } catch (i) {}
+                n.toString = function() {
+                    return o++,
+                    a = !0,
+                    o
+                }
+            } catch (u) {}
+        }(),
+        hyEncode = function(e) {
+            for (var t = "", r = (e.length,
+            0); r &lt; e.length; r++) {
+                var n = r % 100 + 100
+                  , a = e.charCodeAt(r) + n;
+                t += String.fromCharCode(a)
+            }
+            return t
+        }
+        ,
+        hyDecode = function(e) {
+            for (var t = "", r = 0; r &lt; e.length; r++) {
+                var n = r % 100 + 100
+                  , a = e.charCodeAt(r) - n;
+                t += String.fromCharCode(a)
+            }
+            return t
+        }
+        ,
+        getCommmonInfo2 = function() {
+            var r = {};
+            r.userAgent = e.navigator.userAgent,
+            r.outerHeight = e.outerHeight,
+            r.outerWidth = e.outerWidth,
+            r.screenLeft = e.screenLeft,
+            r.screenTop = e.screenTop,
+            r.height = e.screen.height,
+            r.width = e.screen.width,
+            r.colorDepth = e.screen.colorDepth,
+            r.pixelDepth = e.screen.pixelDepth,
+            r.plugin = getPlugin(),
+            r.languages = getlanguages(),
+            r.cookieEnabled = getCookieEnabled(),
+            r.appCodeName = e.navigator.appCodeName,
+            r.appName = e.navigator.appName,
+            r.platform = e.navigator.platform,
+            r.canvasFp = getCanvasFingerprint(),
+            r.sdid = getSdid(),
+            r.hasLocalStorage = hasLocalStorage(),
+            r.hasSessionStorage = hasSessionStorage(),
+            r.hasIndexDb = hasIndexDb(),
+            r.isCanvasSupported = isCanvasSupported(),
+            r.brower = getBrower(),
+            r.detectAuto = t(),
+            r.isOpenConsole = a,
+            r.mid = getmid();
+            var n = ""
+              , o = "";
+            try {
+                n = JSON.stringify(r);
+                	myjiqima = n;
+                o = hyEncode(n);
+            } catch (i) {}
+            return n;
+        }
+        ,
+        e.hydevice = new r
+    }(window)
+} catch (e) {}; 
+	</value>
+  </data>
+</root>
