@@ -56,12 +56,6 @@
     <Reference Include="Base.Model">
       <HintPath>.\FiddlerHandleReferences\Base.Model.dll</HintPath>
     </Reference>
-    <Reference Include="ThirdParty.Mobiles">
-      <HintPath>.\FiddlerHandleReferences\ThirdParty.Mobiles.dll</HintPath>
-    </Reference>
-    <Reference Include="ThirdParty.Model">
-      <HintPath>.\FiddlerHandleReferences\ThirdParty.Model.dll</HintPath>
-    </Reference>
     <Reference Include="XCode">
       <HintPath>FiddlerHandleReferences\XCode.dll</HintPath>
     </Reference>
@@ -83,9 +77,6 @@
     </Reference>
     <Reference Include="Task.Base">
       <HintPath>.\FiddlerHandleReferences\Task.Base.dll</HintPath>
-    </Reference>
-    <Reference Include="ThirdParty.ProxyMgr">
-      <HintPath>.\FiddlerHandleReferences\ThirdParty.ProxyMgr.dll</HintPath>
     </Reference>
     <Reference Include="HyModel">
       <HintPath>.\FiddlerHandleReferences\HyModel.dll</HintPath>
@@ -230,6 +221,38 @@
     <None Include="Config\YiXinConfig.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Orginal57\AotoRum5.7不Fhook\Config\Core.config" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Config\DataCache.config" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Config\LianZhong.config" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Config\MobileRedConfig.config" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Config\MSDConfig.config" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Config\QhConfig.config" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Config\Selenium.config" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Config\XCode.config" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Config\YiXinConfig.config" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\FiddlerHandle.exe.config" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_05_18.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_05_20.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_07_06.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_07_07.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_07_13.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_07_24.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_07_26.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_07_27.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_08_07.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_08_20.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_08_21.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_08_27.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_09_03.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_09_04.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_09_05.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_09_06.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_09_07.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_09_10.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_09_15.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_09_16.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_09_17.log" />
+    <None Include="Orginal57\AotoRum5.7不Fhook\Log\2020_09_27.log" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="FiddlerHandleReferences\Base.Model.dll" />
@@ -251,6 +274,136 @@
     <Content Include="FiddlerHandleReferences\WebDriver.dll" />
     <Content Include="FiddlerHandleReferences\XCode.dll" />
     <Content Include="FiddlerHandleReferences\XS.Helper.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\AutoIT3\google要恢复页面吗.exe" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\AutoIT3\goolge上传图片.exe" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\AutoIT3\goolge上传图片要带两个参数1=浏览器类型,2=路径.txt" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\Base.Model.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\Base.Model.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\BasicFormatsForCore.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\BCMakeCert.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\beifen\chromedriver.exe" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\chromedriver.exe" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\DotNetZip.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\DotNetZip.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\DotNetZip.xml" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\DotRas.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\DotRas.xml" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\EasyHook.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\EasyHook.xml" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\EasyHook32.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\EasyHook32Svc.exe" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\EasyHook64.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\EasyHook64Svc.exe" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\EasyHookSocket.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\EasyHookSocket.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\EasyLoad32.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\EasyLoad64.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\FastVerCode.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\FastVerCode.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\FiddlerCore--.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\FiddlerCore.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\FiddlerHandle.exe" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\FiddlerHandle.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\HPSocketCS.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\HPSocketCS.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\HttpHelper.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\HttpHelper.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\HttpHelper.xml" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\Huya.Data.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\Huya.Data.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\Huya.Protocal.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\Huya.Protocal.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\HyBase.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\HyBase.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\HyModel.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\HyModel.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_101_154.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_102_73.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_110_123.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_131_91.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_147_130.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_147_160.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_161_125.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_165_76.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_182_146.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_186_121.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_205_48.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_207_154.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_212_138.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_248_52.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_260_122.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_263_54.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_274_122.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_274_81.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_288_161.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_297_57.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_300_130.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_59_118.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_64_113.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_84_29.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\image\yzm_86_105.png" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\NewLife.Core.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\NewLife.Core.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\NewLife.Core.xml" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\Newtonsoft.Json.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\Newtonsoft.Json.xml" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\OCR.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\PicDaTi.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\PicDaTi.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\Plugins\System.Data.SQLite.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\SuperSocket.ClientEngine.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\SuperSocket.ClientEngine.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\SuperSocket.ProtoBase.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\SuperSocket.ProtoBase.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\SuperSocket.ProtoBase.xml" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\System.Buffers.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\System.Buffers.xml" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\System.Memory.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\System.Memory.xml" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\System.Numerics.Vectors.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\System.Numerics.Vectors.xml" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\System.Runtime.CompilerServices.Unsafe.xml" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\Task.Base.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\Task.Base.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\Telerik.NetworkConnections.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\Telerik.NetworkConnections.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\Telerik.NetworkConnections.xml" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\ThirdParty.Data.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\ThirdParty.Data.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\ThirdParty.Mobiles.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\ThirdParty.Mobiles.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\ThirdParty.Model.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\ThirdParty.Model.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\ThirdParty.ProxyMgr.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\ThirdParty.ProxyMgr.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\WebDriver.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\WebDriver.xml" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\WebSocket4Net.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\WebSocket4Net.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\XCode.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\XCode.pdb" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\XCode.xml" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\XS.Helper.dll" />
+    <Content Include="Orginal57\AotoRum5.7不Fhook\XS.Helper.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HuYa\ThirdParty.Data.csproj">
+      <Project>{6c5e8a11-3c0b-4a60-8d7b-fa215f66da3d}</Project>
+      <Name>ThirdParty.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuYa\ThirdParty.Mobiles.csproj">
+      <Project>{e1e0ccac-1243-4304-8324-46c9d18e4ad4}</Project>
+      <Name>ThirdParty.Mobiles</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuYa\ThirdParty.Model.csproj">
+      <Project>{f86f2969-52cc-420d-a8df-7521aabf160f}</Project>
+      <Name>ThirdParty.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HuYa\ThirdParty.ProxyMgr.csproj">
+      <Project>{8b9ca4e2-bd3b-47cf-a430-d5ba692878ae}</Project>
+      <Name>ThirdParty.ProxyMgr</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

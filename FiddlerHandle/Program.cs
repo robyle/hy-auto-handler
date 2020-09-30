@@ -117,6 +117,7 @@ namespace FiddlerHandle
 				XmlConfig<SeleniumConfig>.Current.ConfigFile = ph;
 				XmlConfig<SeleniumConfig>.Current.Load(ph);
 
+			
 			XmlConfig<SeleniumConfig>.Current.ConfigFile = ph;
 			XmlConfig<SeleniumConfig>.Current.Load(ph);
 			TaskTool.AddHyDataConneStr(XmlConfig<SeleniumConfig>.Current.HyAccountDb);
