@@ -71,7 +71,7 @@ namespace FiddlerHandle.AutoWeb
 					DateTime now = TimerX.Now;
 					hyAccount.CreateTime = now;
 					hyAccount.Save();
-					string jqmStr = SelementHelper.GetJqmStr(base.HySeleniumMgr.WebDriver, Array.Empty<object>());
+					string jqmStr = SelementHelper.GetJqmStr(base.HySeleniumMgr.WebDriver, Array.Empty<object>());//机器码处理
 					hyAccount.JiQiMa = jqmStr;
 					hyAccount.UpdateTime = now.AddDays(-1);
 					hyAccount.Save();
